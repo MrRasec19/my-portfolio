@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.title-font {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl;
+    font-weight: extra-bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body-font {
+    @apply text-lg sm:text-xl md:text-2xl;
+    line-height: 2rem;
+}
+
+.side-space {
+    @apply px-2 sm:px-4 md:px-5 lg:px-12;
+}
